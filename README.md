@@ -28,10 +28,14 @@ You should not just have one long "main".  You should use structures appropriate
 
 
 # General Requirements
-a. You can work in teams of 2. No discussion with other teams are allowed. 
+a. You can work in teams of 2. No discussion with other teams are allowed.
+
 b. You should get started early. 
+
 c. You are required to design memory well because we are going to plug the cache in later. 
+
 d. You should include a readme with YOUR NAMES and documentation about their project; e.g. design decisions and specifics. 
+
 e. You should use object-oriented design principles.  
 
 # Notes about Output
