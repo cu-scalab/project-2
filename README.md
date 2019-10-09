@@ -18,7 +18,7 @@ In this part you are required to simulate a CPU (as seen in `zybooks 5.4`). Foll
 2. For the Model, you should use a good abstraction of the CPU, e.g. separate logic blocks as objects. 
 3. "Controller" will allow different granularities of runtime. You are required to have a version of the controller that runs the entire program, however you may wish to implement a "single-step" controller that does one at a time with press of keyboard button.
 4. "View" - at least one "text" view that will display a "scoreboard" that shows the contents of PC, registers, and memory; also of logic block statistics - they should use the observer pattern to implement this. `Note:` The view is expected to update every cycle. For the text view, that means it should print the scoreboard on every cycle.
-5. You should track # cycles for a given program. Also, you should track ALU arithmetic operations (how many add, sub, etc ops). `Note`: that some instructions besides "add" use add. example is beq; this counts as an ALU arithmetic op, incrementing the PC does not.
+5. You should track # cycles for a given program. Also, you should track ALU arithmetic operations (how many add, sub, etc ops). `Note`: Some instructions besides "add" use add. example is beq; this counts as an ALU arithmetic op, incrementing the PC does not.
 6. You should track # of memory reads/writes too. 
 7. The control should track the # of each individual instruction.
 
