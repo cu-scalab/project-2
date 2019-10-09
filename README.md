@@ -46,6 +46,7 @@ You are encouraged to use Java because it is easy to express object oriented des
 
 # Bonus and Extra Points
 a. If anyone is super eager, you can earn up to 10 extra points if they create a GUI view. 
+
 b. Also up to 20 points if you create a pipelined version, but the pipelined version scoredboard must track each stage.
 
 # Deadline
