@@ -7,6 +7,8 @@ In this part you are required to build a basic mips32 assembler for well-formatt
 3. Instructions for translation are mentioned in `zybooks 5.4`
 4. Output should be one line per binary, no preluded spacing. 
 
+`Note`:  You should write this as binary, not as 0/1 ascii characters. Each language has a way to read/write raw binary to files. They will possibly not be human readable. http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html is a good source for instruction format.
+
 Using the assembler you built, encode the following instructions:-
 1. add t3, t5, t7
 2. lw t4, 0x8(t8)
@@ -15,10 +17,7 @@ Using the assembler you built, encode the following instructions:-
 Using the assembler you built, decode the following binary instructions:-
 1. Decode instruction: 10101101010010010000000000010000
 
-
 In your report include the results of encoding and decoding.
-
-`Note`:  You should write this as binary, not as 0/1 ascii characters. Each language has a way to read/write raw binary to files. They will possibly not be human readable. http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html is a good source for instruction format.
 
 
 # Part B
