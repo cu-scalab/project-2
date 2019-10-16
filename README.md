@@ -12,7 +12,7 @@ Using the assembler you built, encode the following instructions:-
 2. lw t4, 0x8(t8)
 3. beq t4, t3, 0x100
 
-Using the assembler you built, encode the following instructions:-
+Using the assembler you built, decode the following binary instructions:-
 1. Decode instruction: 10101101010010010000000000010000
 
 
