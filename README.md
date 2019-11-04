@@ -21,6 +21,8 @@ In this part you are required to simulate a CPU (as seen in `zybooks 5.4`). Foll
 6. You should track # of memory reads/writes too. 
 7. The control should track the # of each individual instruction.
 
+Argument for input memory:
+A file containing raw binary of data memory information. File should be read and loaded into the "data memory" section. Addressing starts at 0x0 and ends at the size of the file. 
 
 # Things to avoid
 You should not just have one long "main".  You should use structures appropriately. You are allowed to use C++ only if you have had Brian Malloy's 2-D game design experience. 
